@@ -1,0 +1,71 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact</title>
+	</head>
+	<body>
+		<h1>My Contact Page</h1>
+		<br />
+		<ul>
+			<li>
+				<a href="/">Home</a>
+			</li>
+			<li>
+				<a href="hobbies.html">Hobbies</a>
+			</li>
+		</ul>
+		<hr />
+		<p>Jerry Applegarth</p>
+		<p>Phone: 541-643-1630</p>
+		<p>
+			<a href="mailto: applegarth1630@gmail.com">Email</a>
+		</p>
+		<hr />
+		<form class="form-example" action="index.html" method="post">
+			<div class="form-example">
+				<label for="name">Enter Your Name</label>
+				<input type="text" name="name" id="name" autocomplete="on" required />
+			</div>
+			<div class="form-example">
+				<label for="email">Enter Your Email</label>
+				<input type="text" name="email" id="email" autocomplete="on" required />
+			</div>
+			<div class="form-example">
+				<label for="password">Enter Your Password</label>
+				<input type="password" id="password" name="password" required />
+			</div>
+			<div class="form-example">
+				<input type="submit" value="Subscribe!" />
+			</div>
+		</form>
+		<hr />
+		<h3>More Forms</h3>
+		<form class="anouther-form" action="index.html" method="post">
+			<div>
+				<label for="name">Enter Your Name</label>
+				<input type="text" id="name" name="name" autocomplete="on" required />
+			</div>
+			<div>
+				<input type="submit" value="Submit" />
+			</div>
+		</form>
+		<form action="index.html" method="post">
+			<fieldset>
+				<legend>Do you agree to the terms?</legend>
+				<label>
+					<input type="radio" name="radio" value="yes" />
+					Yes
+				</label>
+				<label>
+					<input type="radio" name="radio" value="no" />
+					No
+				</label>
+			</fieldset>
+		</form>
+	</body>
+</html>
